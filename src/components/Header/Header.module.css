@@ -1,0 +1,17 @@
+.section{
+    background-color: #2E3539;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
