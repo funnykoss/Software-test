@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import s from './Input.module.css'
 
 const Input = ({langs}) => {
   const [value, setValue] = useState('');
@@ -10,7 +10,7 @@ const Input = ({langs}) => {
    }
 
     return <div>
-        <select value={value} onChange={changeSelect}>
+        <select value={value} onChange={changeSelect} className={s.thumb}>
             {
                 langs.map(({ id, title }) => (
                     <option key={id}>{title}</option>

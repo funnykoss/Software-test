@@ -2,9 +2,7 @@ import React from 'react';
 import s from './Button.module.css';
 
 function Button({
- 
-  border = '#ff700b',
-  width = '200px',
+  width = '180px',
   type = 'button',
   inverted = false,
 }) {
@@ -13,7 +11,7 @@ function Button({
       <button
         type={type}
         className={inverted ? s.buttonInverted : s.button}
-        style={{ border: `1px solid ${border}`, width: `${width}` }}
+        style={{ width: `${width}` }}
       >
     Здати в аренду +
       </button>

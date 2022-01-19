@@ -1,6 +1,6 @@
 
 import React from 'react'
-import s from './SearchBar.module.css'
+// import s from './SearchBar.module.css'
 import SearchLocation from './SearchLocation/SearchLocation'
 import SearchMethodRent from './SearchMethodRent'
 import SearchPeriodRent from './SearchPeriodRent'

@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './SearchRent.module.css';
+// import s from './SearchRent.module.css';
 import { BiSearch } from 'react-icons/bi';
 import Input from '../../Input/Input';
 import rent from '../../../JSON/rent.json'

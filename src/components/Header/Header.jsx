@@ -11,10 +11,14 @@ const Header = () => {
             <Container >
                 <div className={s.header}>
             <HeaderLogo />
-            <div className={s.navigate}>
-                <Button/>
-                <NavBar />
-            </div>
+                        <ul className={s.navigate}>
+                            <li className={s.navItem}>
+                                <Button/>
+                            </li>
+                            <li className={s.navItem}>
+                                 <NavBar />
+                            </li>
+                        </ul>
          </div>   
        </Container>
 

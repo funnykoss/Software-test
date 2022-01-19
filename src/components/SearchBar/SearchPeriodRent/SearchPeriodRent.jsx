@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import s from './SearchPeriodRent.module.css'
+// import s from './SearchPeriodRent.module.css'
 import { BsCalendar3 } from 'react-icons/bs'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";

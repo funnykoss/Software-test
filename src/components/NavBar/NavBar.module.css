@@ -3,3 +3,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+.link:hover,
+.link:focus{
+       color: #E99852;
+ 
+}
+.navItem:not(:last-child){
+margin-right: 15px;
+}
