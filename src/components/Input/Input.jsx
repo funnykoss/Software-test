@@ -9,16 +9,16 @@ const Input = ({langs}) => {
       setValue(event.target.value);
    }
 
-    return <div>
+    return (
+        <div >
         <select value={value} onChange={changeSelect} className={s.thumb}>
             {
                 langs.map(({ id, title }) => (
-                    <option key={id}>{title}</option>
+                    <option key={id} className={s.title}>{title}</option>
                 ))
            } 
-</select>
-     
-   </div>;
+        </select>
+        </div>)
 }
 
 

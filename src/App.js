@@ -1,14 +1,9 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import SearchBar from "./components/SearchBar";
+
+import HomePageView from "./view/HomePageView/HomePageView";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <SearchBar />
-    </>
-  );
+  return <HomePageView />;
 }
 
 export default App;
