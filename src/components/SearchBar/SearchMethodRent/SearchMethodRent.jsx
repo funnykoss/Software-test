@@ -9,7 +9,6 @@ const SearchMethodRent = ({value,
     return (
         <>
             <MdOutlineSort />
-           <p>Способ Оренды</p> 
            <Input value={ value} langs={method} onChange={changeSelect}/> 
         </>
     )

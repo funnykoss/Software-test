@@ -9,7 +9,7 @@ const SearchRent = ( {value,
     return (
         <>
             <BiSearch />
-           <p>Я хочу арендовать</p> 
+           
            <Input value={ value} langs={rent} onChange={changeSelect}/> 
         </>
     )

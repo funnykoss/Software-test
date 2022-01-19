@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import Container from "../Conteiner/Container";
+import Container from "../Container/Container";
 import HeaderLogo from "../HeaderLogo/HeaderLogo";
 import NavBar from "../NavBar";
 import s from './Header.module.css'
