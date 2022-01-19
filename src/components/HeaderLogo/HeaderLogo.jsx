@@ -5,16 +5,16 @@ import s from './HeaderLogo.module.css'
 
 const HeaderLogo = () => {
     return (
-        <>
+        <div className={s.section}>
             <Link
                 to="/"
                 className={s.link}>
                 <img src={logo} alt="logo" />
-                <p className={s.logoTitle}>Портал оренды и проката
+            </Link>
+            <p className={s.logoTitle}>Портал оренды и проката
                     товаров и услуг
                 </p>
-           </Link>
-        </>
+        </div>
     )
 
 }

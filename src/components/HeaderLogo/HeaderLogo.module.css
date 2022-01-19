@@ -1,0 +1,15 @@
+.section{
+    display: flex;
+    align-items: center;
+
+}
+
+.logoTitle{
+  text-decoration: none; 
+  color: aliceblue; 
+  width: 250px;
+}
+
+.link{
+    margin-right: 10px;
+}
