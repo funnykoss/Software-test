@@ -9,7 +9,10 @@ const HeaderLogo = () => {
             <Link
                 to="/"
                 className={s.link}>
-              <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" />
+                <p className={s.logoTitle}>Портал оренды и проката
+                    товаров и услуг
+                </p>
            </Link>
         </>
     )

@@ -1,15 +1,18 @@
 import React from 'react';
 import { BiExit } from 'react-icons/bi';
-import InputLang from '../Input/InputLang';
+import InputCurrency from '../InputCurrency/InputCurrency';
+import InputLang from '../InputLang';
+import s from './NavBar.module.css'
 
 
 const NavBar = () => {
     return (
-        <>
+        <div className={s.navBar}>
             <BiExit />
             <p>Увійти</p>
             <InputLang />
-        </>
+            <InputCurrency/>
+        </div>
     )
    
     

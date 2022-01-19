@@ -1,23 +1,16 @@
 import React from "react";
-import { useState } from "react";
 import Input from "../Input/Input";
+import langs from '../../JSON/langs.json'
 
-
-const InputLang = () => {
-    const [value, setValue] = useState();
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        setValue(value)
-    };
-    const handleChange = (event) => {
-    setValue(event.target.value)
-}
-
-    
+const InputLang = ({ value,
+   changeSelect,}) => {
+ 
+  
     return (
         <>
-            <Input onSubmit={handleSubmit} onChange={handleChange}/>
+            <Input value={ value} langs={ langs} onChange={changeSelect}/>
+
+            
         </>
     )
     
