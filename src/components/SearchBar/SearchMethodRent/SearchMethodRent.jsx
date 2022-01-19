@@ -9,7 +9,7 @@ const SearchMethodRent = ({value,
     return (
         <>
             <MdOutlineSort className={s.icn}/>
-           <Input value={ value} langs={method} onChange={changeSelect}/> 
+            <Input value={value} langs={method} onChange={changeSelect} className={ s.input}/> 
         </>
     )
 }
