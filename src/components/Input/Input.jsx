@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import s from './Input.module.css'
 
-const Input = ({langs}) => {
+const Input = ({langs, color, width,}) => {
   const [value, setValue] = useState('');
 
    function changeSelect(event) {
@@ -11,7 +11,13 @@ const Input = ({langs}) => {
 
     return (
         <div >
-        <select value={value} onChange={changeSelect} className={s.thumb}>
+
+            <select
+                value={value}
+                onChange={changeSelect}
+                className={s.thumb}
+            style={{color:`${color}`, width:`${width}`}}
+            >
             {
                 langs.map(({ id, title }) => (
                     <option key={id} className={s.title}>{title}</option>

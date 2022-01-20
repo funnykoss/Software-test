@@ -11,12 +11,25 @@ const SearchBar = () => {
     return (
         <>
             <Container>
-            <form className={s.searchForm}>
-                <SearchRent />
-                <SearchMethodRent />
-                <SearchPeriodRent /> 
-                <SearchLocation />
-                <button type="submit">Найти</button>
+                <form className={s.searchForm}>
+                    <ul className={s.searchList}>
+                        <li className={s.searchBarItem}>
+                           <SearchRent />
+                        </li>
+                        <li className={s.searchBarItem}>
+                           <SearchMethodRent />
+                        </li>
+                        <li className={s.searchBarItem}>
+                           <SearchPeriodRent /> 
+
+                        </li>
+                        <li className={s.searchBarItem}>
+                          <SearchLocation />
+                        </li>
+                    </ul>
+                
+                
+                <button type="submit" className={s.searchButton}>Найти</button>
             </form> 
                 </Container>
         </>

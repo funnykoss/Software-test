@@ -1,4 +1,7 @@
 .icn{
+  position: absolute;
+  top: 0;
+  left: -25%;
     fill: #6b6a6a;
   width: 20px;
   height: 20px;
@@ -6,4 +9,7 @@
 .datePicker{
   width: 100px;
   margin: 0 auto;
+}
+.inputThumb{
+  position: relative;
 }

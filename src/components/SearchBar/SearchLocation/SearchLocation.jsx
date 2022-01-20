@@ -7,12 +7,16 @@ import Input from '../../Input/Input'
 const SearchLocation = ({value,
    changeSelect}) => {
     return (
-        <>
-             <>
-            <GrMapLocation className={s.icn}/>
-           <Input value={ value} langs={locationList} onChange={changeSelect}/> 
-        </>
-        </>
+      <div className={s.inputThumb}>
+        <GrMapLocation className={s.icn}/>
+            <Input
+                value={value}
+                langs={locationList}
+                onChange={changeSelect}
+                color='#98A7B3'
+         /> 
+     </div>
+        
     )
 }
 

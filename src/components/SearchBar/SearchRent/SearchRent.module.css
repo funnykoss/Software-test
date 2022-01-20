@@ -1,5 +1,11 @@
 .icn{
-    fill: #6b6a6a;
+  position: absolute;
+  top: 0;
+  left: -4%;
+  fill: #6b6a6a;
   width: 20px;
   height: 20px;
+}
+.inputThumb{
+  position: relative;
 }

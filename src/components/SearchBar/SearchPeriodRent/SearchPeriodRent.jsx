@@ -7,11 +7,11 @@ import 'react-datepicker/src/stylesheets/datepicker.css';
 const SearchPeriodRent = () => {
      const [startDate, setStartDate] = useState(new Date());
    return (
-        <>
+        <div className={s.inputThumb}>
           <BsCalendar3 className={s.icn}/>
           <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
 
-        </>
+        </div>
     )
 }
 
