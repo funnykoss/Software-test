@@ -1,0 +1,9 @@
+.icn{
+  position: absolute;
+  top: 0;
+  left: -4%;
+  fill: #fc0202;
+  width: 20px;
+  height: 20px;
+  cursor:pointer
+}

@@ -2,7 +2,7 @@ import React from "react";
 import s from './HomePageView.module.css'
 import Header from "../../components/Header";
 import SearchBar from "../../components/SearchBar";
-import SimpleMap from '../../components/SimpleMap/SimpleMap'
+import MyMap from '../../components/MyMap/MyMap'
 
 const HomePageView = () => {
     
@@ -12,7 +12,7 @@ const HomePageView = () => {
         <div className={s.main}>
           <SearchBar />
         </div> 
-        <SimpleMap/>
+        <MyMap/>
     </>
        
     )
