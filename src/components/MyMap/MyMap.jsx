@@ -1,7 +1,6 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 import { useState, useCallback } from 'react';
-import { ImLocation } from 'react-icons/im';
 
 
 const containerStyle = {
@@ -10,8 +9,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 50.4546,
-  lng: 30.5238
+  lat: 50.45,
+  lng: 30.52
 };
 
 
@@ -42,25 +41,13 @@ function MyMap() {
 //   const handleClick = (event) = {
   
 // }
-  const onLoad = useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds();
-    map.fitBounds(bounds);
-    setMap(map)
-  }, [])
-  const onUnmount = useCallback(function callback(map) {
-    setMap(null)
-  }, [])
-// const onLoadMarker = marker => {
-//   console.log('marker: ', marker)
-// }
+
   return isLoaded ? (
     <>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
-        onLoad={onLoad}
-        onUnmount={onUnmount}
+        zoom={13}
       >
      <Marker
           position={positionVorota}
